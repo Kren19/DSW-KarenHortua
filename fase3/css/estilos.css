@@ -78,76 +78,88 @@
     display:block;
    }
 
+/* CONTENIDO PARA AJUSTAR EL ASIDE AL LADO DERECHO DE LA PAGINA*/
+   #container{
+       width: 990px;
+       margin: auto;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       background:white;
+   }
 
-   /* Formato para etiquetas H1 */
-   h1{
+   header{
+       display: flex;
+       justify-content:space-between;
+       align-items: center;
+       width: 1000px;
+   }
+
+   header h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color:rgb(21, 44, 44);
-}
+   }
 
-/* Formato para la cabecera */
-header{
-    background-color:white;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-}
+   #contenido{
+       width: 630px;
+       height: 800px;
+       float: left;
+       background: white;
+       margin-top: 10px;
+       margin-right: 10px;
+   }
 
-
-/* Prueba ubicacion aside */
-.container h2{
-    padding: 5px;
-    font-size: 20 px;
+   #contenido h1{
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
     font-weight: bold;
-    color:black;
-}
+    color:rgb(21, 44, 44);
+    padding:10px;
+   }
 
-.container p{
-    font-size: 16px;
+   #contenido h2{
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    text-align:initial;
-    color:black;
-    padding: 3em;
-}
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(21, 44, 44);
+    padding:10px;
+   }
 
-.banner{
-    max-width: 1100px;
-    min-height: 400px;
-    margin: 0 auto;
-}
-aside{
+   #contenido p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:rgb(21, 44, 44);
+    padding:10px;
+   }
 
-    width: 500px;
-    min-height: 25px;
-    float: right;
-}
-footer{
-    background-color: yellowgreen;
+   #contenido li{
+       list-style: none;
+       text-align: justify;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+       color:rgb(21, 44, 44);
+       padding: 10px;
+   }
+
+   aside{
+       width: 340px;
+       height: 700px;;
+       background: white;
+       margin-top: 10px;
+       float: right;
+   }
+
+   footer{
+    background-color:darkolivegreen ;
     padding: 20px;
-    color:black;
+    color:blanchedalmond;
     text-align: center;
-}
-
-.pie-foto{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-}
-
-footer a:hover{
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-footer a{
-    color: #6d6d6d;
-}
-h6{
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
-    color: #005883;
-}
-
+    clear: both;
+   }
