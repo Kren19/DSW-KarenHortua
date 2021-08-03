@@ -1,0 +1,165 @@
+/* menu */
+
+#menu ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:darkolivegreen;
+   }
+   
+   /* enlaces del menu */
+   #menu ul a {
+    display:block;
+    color:blanchedalmond;
+    text-decoration:none;
+    font-weight:400;
+    font-size:20px;
+    padding:25px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    height: 30px;
+    align-items: center;
+   justify-content: center;
+
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:center;
+    width: 100%;
+    margin:0;
+    padding:0;
+    text-align: center;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#5b78a7;
+   }
+
+   /* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:180px
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }
+
+/* CONTENIDO PARA AJUSTAR EL ASIDE AL LADO DERECHO DE LA PAGINA*/
+   #container{
+       width: 990px;
+       margin: auto;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       background:white;
+   }
+
+   header{
+       display: flex;
+       justify-content:space-between;
+       align-items: center;
+       width: 1000px;
+   }
+
+   header h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(21, 44, 44);
+   }
+
+   #contenido{
+       width: 640px;
+       height: 820px;
+       float: left;
+       background: white;
+       margin-top: 10px;
+       margin-right: 10px;
+   }
+
+   #contenido h1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(21, 44, 44);
+    padding:10px;
+   }
+
+   #contenido h2{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(21, 44, 44);
+    padding:10px;
+   }
+
+   #contenido p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:rgb(21, 44, 44);
+    padding:10px;
+   }
+
+   #contenido li{
+       list-style: none;
+       text-align: justify;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 16px;
+       color:rgb(21, 44, 44);
+       padding: 10px;
+   }
+
+   aside{
+       width: 340px;
+       height: 700px;;
+       background: white;
+       margin-top: 10px;
+       float: right;
+   }
+
+   footer{
+    background-color:darkolivegreen ;
+    padding: 20px;
+    color:blanchedalmond;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    clear: both;
+   }
